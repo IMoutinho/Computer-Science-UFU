@@ -5,7 +5,7 @@ Bem-vindo ao meu repositório acadêmico! 👋
 Este espaço é dedicado ao armazenamento e versionamento das atividades práticas, laboratórios e projetos desenvolvidos durante minha graduação em **Ciência da Computação** na **Universidade Federal de Uberlândia (UFU)**.
 
 ## 🚀 Sobre Mim
-Sou **Moutinho**, graduado em Fisioterapia e atualmente no 2º ano de Ciência da Computação.
+Sou o **Moutinho**, atualmente no 2º ano de Ciência da Computação.
 
 ## 📂 Estrutura do Repositório
 As atividades estão organizadas por disciplinas para facilitar a consulta:
