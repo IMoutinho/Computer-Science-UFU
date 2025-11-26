@@ -1,0 +1,193 @@
+Exemplo de entrada com menos 20 cidades:
+1
+São Paulo
+Campinas
+100
+1
+Campinas
+Ribeirão Preto
+240
+1
+Ribeirão Preto
+São Carlos
+110
+1
+São Carlos
+Barueri
+180
+1
+Barueri
+Osasco
+10
+1
+Osasco
+São Paulo
+15
+1
+São Paulo
+Guarulhos
+25
+1
+Guarulhos
+São José dos Campos
+90
+1
+São José dos Campos
+Taubaté
+65
+1
+Taubaté
+Caraguatatuba
+100
+1
+São Paulo
+Santos
+70
+1
+Santos
+Cubatão
+20
+1
+Cubatão
+São Paulo
+60
+1
+Belo Horizonte
+Betim
+30
+1
+Betim
+Contagem
+20
+1
+Contagem
+Juiz de Fora
+180
+1
+Juiz de Fora
+Rio de Janeiro
+190
+1
+Rio de Janeiro
+Volta Redonda
+120
+1
+Volta Redonda
+São Paulo
+230
+1
+Vitória
+Serra
+50
+1
+Serra
+Cachoeiro de Itapemirim
+130
+1
+Cachoeiro de Itapemirim
+Vila Velha
+30
+1
+Vila Velha
+Vitória
+35
+2
+3
+São Paulo
+Mogi das Cruzes
+50
+4
+Campinas
+Ribeirão Preto
+5
+São Paulo
+Santos
+6
+São Paulo
+7
+0
+
+Exemplo de entrada com cidades que formem um grafo acíclico:
+1
+São José dos Campos
+Taubaté
+65
+1
+Taubaté
+Caraguatatuba
+100
+1
+Campinas
+Ribeirão Preto
+240
+1
+Campinas
+São Carlos
+110
+1
+São Carlos
+Barueri
+180
+1
+Barueri
+Osasco
+10
+1
+Osasco
+São Paulo
+15
+1
+Guarulhos
+São José dos Campos
+90
+1
+Belo Horizonte
+Betim
+30
+1
+Betim
+Contagem
+20
+1
+Contagem
+Juiz de Fora
+180
+2
+
+
+Exemplo de entrada com cidades que formem um grafo que possui
+ciclo:
+1
+São Paulo
+Santos
+70
+1
+Santos
+Cubatão
+20
+1
+Cubatão
+São Paulo
+60
+1
+São Paulo
+Guarulhos
+25
+1
+Guarulhos
+São José dos Campos
+90
+1
+Juiz de Fora
+Rio de Janeiro
+190
+1
+Rio de Janeiro
+Volta Redonda
+120
+1
+Volta Redonda
+São Paulo
+230
+2
+

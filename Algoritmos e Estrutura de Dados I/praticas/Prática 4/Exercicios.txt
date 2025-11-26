@@ -1,0 +1,80 @@
+1) Sejam as definições de estrutura de no e de tipo No abaixo: 
+
+// Definição da estrutura no para encadeadeamento de inteiros
+struct no {
+  int item;
+  struct no* prox;
+};
+
+// Definição do tipo No
+typedef struct no No;
+
+(a) Explique porque a estrutura nó, para a criação de lista encadeada, é definida recursivamente.
+Ela é definida recursivamente pois a estrutura nó, para criação da lista encadeada precisa chamar a si mesma para apontar
+para o próximo nó. 
+
+(b) Indique vantagens da estrutura de encadeamento de nós para a criação de listas.
+A estrutura de encadeamento de nós é vantajosa pois permite que um dado tal, aponte para o próximo dado e assim subsequentemente
+isso faz com que a estrutura esteja com todos seus itens ligados entre si e permite que andemos dentro da estrutura.
+Além disso, dessa forma a estrutura está sendo definida e criada em tempo de execução do código, fazendo com que a alocação de memória
+para a lista seja definida dinamicamente
+
+2) Seja o trecho de programa:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+// Definição da estrutura Nó para encadeamento de inteiros
+struct no {
+  int item;
+  struct no* prox;
+};
+
+// Definição do tipo No
+typedef struct no No;
+
+// Função para criar uma lista vazia
+No* criaListaVazia(){
+   return NULL;
+}
+
+// Função para inserir um elemento na lista
+No* insereInicio(No *l, int elem){
+  No* novo;
+  novo = (No*) malloc (sizeof(No)); 
+  if (novo == NULL) return novo;
+
+  novo->item= elem;
+  novo->prox = l;
+  return novo;
+}
+
+int main(){
+ No *lnum; // lista de números com encadeamento de nós 
+ int val; 
+ lnum = criaListaVazia();  
+ for(int i=0;i<10;i++){  //  inserir 10 elementos    
+    scanf("%d",&val);
+    lnum = insereInicio(lnum, val);
+ }
+}
+
+(a) Rode o programa e modularize o código, criando o arquivo header e o arquivo de implementação das funções da lista encadeada, 
+baseada na estrutura no. O arquivo main.c deverá conter apenas a função main e as bibliotecas necessárias.
+
+(b) Inclua funções para: 
+
+verificar se uma lista é vazia
+inserir valores aleatórios entre (0 e 20) no início
+remover um determinado valor (remove apenas a primeira ocorrência deste valor)
+remover o maior elemento da lista (faça a função que encontra o maior separadamente)
+retornar apenas os elementos pares em uma nova lista encadeada (a função par deve ser implementada separadamente)
+contar o número de elementos da lista (criar duas soluções, uma iterativa e outra recursiva)
+retornar todos os elementos da lista em um vetor, criado dinâmicamente (usar uma das funções que conta os elementos da lista para a alocação dinâmica de memória do vetor)
+3) Usando estrutura de nós encadeados, defina uma estrutura para a organização das informações de um aluno, contando com seu nome, nota prática (até 50) e nota teórica (até 50) de uma disciplina. Organize o código para que se possa:
+
+criar uma lista vazia
+inserir alunos (nome, nota prática, nota teórica)
+encontrar as notas de um determinado aluno
+retornar os alunos com média superior a 70 em uma nova lista
+remover um aluno (e suas notas)  

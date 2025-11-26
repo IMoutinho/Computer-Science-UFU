@@ -1,0 +1,16 @@
+Um grupo de N pessoas necessita eleger um líder. Uma pessoa sugeriu os seguintes passos para esta escolha:
+
+Colocar todas as N pessoas em um círculo, e a escolha deve basear-se em percursos circulares nas duas direções.
+Uma pessoa recebe uma caixa, e é considerada a posição de número 1 no círculo.
+Sortear um número K qualquer.
+A partir deste sorteio, a caixa deve andar K-1 posições alternando entre:
+percurso K-1 à direita: a pessoa que receber a caixa está eliminada, devendo passar a caixa para o seu colega do lado à esquerda. 
+percurso K-1 à esquerda: a pessoa que receber a caixa está eliminada, devendo passar a caixa para o seu colega do lado à direita.  
+A última pessoa que restar será o líder do grupo.
+Para este problema necessita-se implementar as funções para lista duplamente ligada e circular:
+
+inserir nó no início
+remover um nó a partir de um ponteiro
+percurso para frente
+percurso para trás
+escolha do líder (percurso + remoção)

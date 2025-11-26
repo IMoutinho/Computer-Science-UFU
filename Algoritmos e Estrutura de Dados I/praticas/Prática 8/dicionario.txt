@@ -1,0 +1,80 @@
+casa
+substantivo
+Lugar onde se mora
+
+azul
+adjetivo
+Cor do céu em dias claros
+
+gato
+substantivo
+Animal doméstico felino
+
+livro
+substantivo
+Objeto com páginas para leitura
+
+comer
+verbo
+Ato de ingerir alimento
+
+feliz
+adjetivo
+Estado de contentamento ou alegria
+
+programar
+verbo
+Escrever instruções para um computador
+
+amor
+substantivo
+Sentimento de afeto intenso
+
+trabalhar
+verbo
+Executar uma atividade remunerada ou não
+
+sol
+substantivo
+Estrela central do nosso sistema solar
+
+estudar
+verbo
+Ato de adquirir conhecimento
+
+noite
+substantivo
+Período do dia após o entardecer
+
+cachorro
+substantivo
+Animal doméstico conhecido por sua lealdade
+
+dia
+substantivo
+Período de vinte e quatro horas
+
+andar
+verbo
+Mover-se com os pés
+
+praia
+substantivo
+Área de areia junto ao mar
+
+alegre
+adjetivo
+Que expressa alegria
+
+sorrir
+verbo
+Demonstrar alegria com o rosto
+
+ler
+verbo
+Interpretar palavras escritas
+
+musica
+substantivo
+Combinação harmoniosa de sons
+

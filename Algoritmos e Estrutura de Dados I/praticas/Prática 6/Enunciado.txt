@@ -1,0 +1,13 @@
+Crie um programa em linguagem C com os seguintes requisitos:
+Cada nó da lista circular deve representar uma nave, contendo informações como a capacidade máxima de combustível e o combustível atual.
+O sistema deve permitir que o usuário forneça a quantidade inicial de combustível de cada nave e a quantidade de combustível por 
+ciclo que será distribuída entre as naves.
+A cada ciclo, o sistema abastece a nave atual, atualizando seu nível de combustível, e então passa para a próxima nave na órbita.
+Quando uma nave estiver com o tanque cheio, ela não recebe mais combustível, mas o sistema ainda passa por ela para verificar 
+o estado de outras naves.
+O processo termina quando todas as naves estão com os tanques cheios.
+Exemplo de Entrada:
+Naves: 4
+Capacidade de combustível das naves: [50, 75, 60, 90]
+Combustível inicial das naves: [20, 50, 40, 80]
+Quantidade de combustível por ciclo: 10 unidades
